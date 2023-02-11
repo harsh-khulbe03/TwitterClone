@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display:flex;
+    position:relative;
+    height: 100vh;
+    width:100%;
+    background-color: #f4f8fb;
+}
+
+header aside {
+    height: 100%;
+    width:15%;
+    padding:15px 0 15px 30px;
+    background-color: white;
+}
+
+header section {
+    width:85%;
+    height:100%;
+}
+
+header aside .logo {
+    color: rgb(29, 155, 240);
+    font-size:30px;
+}
+
+header aside ul {
+    margin-top:40px;
+}
+
+header aside ul li {
+    padding: 17px 0;
+    list-style: none;
+}
+
+header aside ul li a {
+    text-decoration: none;
+    color:rgba(26, 23, 23, 0.636);
+    font-size: 18px;
+    font-weight: 500;
+    transition:0.3s linear;
+}
+
+header aside ul li a:hover{
+    color:rgb(29,155,240);
+}
+
+header aside ul li a i {
+    margin-right:10px;
+}
+
+header aside ul li:nth-child(7) {
+    border-right:3px solid rgb(29,155,240);
+}
+
+header aside ul li:nth-child(7) a{
+    color:rgb(29,155,240);
+}
+
+header aside button {
+    margin:15px 0px;
+    padding:15px 60px;
+    font-size:20px;
+    background-color: rgb(29,155,240);
+    color:white;
+    border-radius:30px;
+    outline:none;
+    border:none;
+    cursor:pointer;
+}
+
+header aside button:hover{
+    background:rgba(28,161,241,.5);
+}
+
+
+
+
+
+
+
